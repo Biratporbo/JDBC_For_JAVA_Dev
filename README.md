@@ -30,3 +30,4 @@ Before running the project, make sure you have:
 
 ## Notes
 This project is intended for learning purposes and shows the basic flow of JDBC operations in Java.
+
