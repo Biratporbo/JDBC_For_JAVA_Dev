@@ -13,7 +13,7 @@ public class MainDB {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/testdb",
                     "root",
-                    "Birat2026"
+                    "******"
             );
 
             return con;
