@@ -1,0 +1,32 @@
+---------------------------------------------------------------
+ID    Name            Age   City            Salary     Gender
+---------------------------------------------------------------
+100   Priya           24    Pune            32000.00   Female
+101   Rohan           27    Mumbai          45000.00   Male
+102   Rahul           27    Mumbai          45000.00   Male
+103   Trisha          26    Kolkata         35000.00   Female
+104   Birat           27    Delhi           30000.00   Male
+105   Rohit           28    Odisha          40000.00   Male
+106   Ankita          25    Kolkata         30000.00   Female
+107   Arijit          26    Bangalore       40000.00   Male
+108   Sneha           26    Chennai         45000.00   Female
+109   Amit            29    Hyderabad       50000.00   Male
+110   Neha            27    Jaipur          38000.00   Female
+111   Karan           30    Ahmedabad       55000.00   Male
+112   Pooja           25    Lucknow         34000.00   Female
+113   Rahul           31    Patna           48000.00   Male
+114   Meera           28    Surat           42000.00   Female
+115   Vikram          32    Nagpur          60000.00   Male
+116   Anjali          26    Bhopal          36000.00   Female
+117   Sourav          29    Kolkata         47000.00   Male
+118   Nisha           24    Indore          31000.00   Female
+119   Deepak          27    Chandigarh      45000.00   Male
+120   Kavya           23    Mysore          29000.00   Female
+121   Manish          33    Noida           65000.00   Male
+122   Ritu            28    Guwahati        39000.00   Female
+123   Abhishek        30    Ranchi          52000.00   Male
+124   Simran          27    Amritsar        41000.00   Female
+125   Harsh           26    Visakhapatnam   43000.00   Male
+126   Ankit           24    Kolkata         38000.00   Male
+---------------------------------------------------------------
+
