@@ -1,0 +1,20 @@
+When run the program DeleteData.java
+It will give the return output when, the condition is TRUE
+
+---------------------------------------------------------------------
+
+Enter User ID to Delete: 100
+Record Deleted Successfully!
+
+When Verify in MySQL -->
+SELECT * FROM users;
+If ID 101 was deleted, it will no longer appear in the table.
+
+---------------------------------------------------------------------
+
+Else, if it is FALSE return, that given the output
+
+Enter User ID to Delete: 160
+User ID Not Found!
+
+Because ID 160 User is not available/not found!
