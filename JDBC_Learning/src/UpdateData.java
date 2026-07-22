@@ -50,4 +50,20 @@ public class UpdateData
 
 }
 
+// ------------------------------------------------
 
+/* UpdateData OUTPUT Structure be like -->
+
+-> If Condition Truer than, it will be return to this statement!
+
+    Enter User ID to Update: 101
+    Enter New Salary: 55000
+    Record Updated Successfully!
+
+-> Or Else Condition Falser than, it will return this statement!
+
+    Enter User ID to Update: 150
+    Enter New Salary: 54700
+    User ID Not Found!
+
+ */
