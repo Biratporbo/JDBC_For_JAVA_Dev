@@ -29,6 +29,7 @@ This repository is a beginner-friendly Java learning project focused on understa
 - Data insertion using `PreparedStatement`
 - Data retrieval, update, and delete examples
 - A menu-driven `UserManagementSystem` example for practicing full CRUD workflow
+- A sample execution log in [JDBC_Learning/src/UserManagementSystemOutput.txt](JDBC_Learning/src/UserManagementSystemOutput.txt)
 - Structured Java files for learning the JDBC workflow step by step
 
 ---
@@ -67,6 +68,7 @@ The repository demonstrates the most common database interactions:
 | `UpdateData.java` | Modify existing entries | Data mutation |
 | `DeleteData.java` | Remove records | Record deletion |
 | `UserManagementSystem.java` | Menu-driven CRUD system | End-to-end JDBC practice |
+| `UserManagementSystemOutput.txt` | Sample program output | Reference for expected console behavior |
 
 ---
 
@@ -116,6 +118,7 @@ You can then run the individual files such as:
 - `UpdateData`
 - `DeleteData`
 - `UserManagementSystem` for a complete interactive CRUD flow
+- View [JDBC_Learning/src/UserManagementSystemOutput.txt](JDBC_Learning/src/UserManagementSystemOutput.txt) for a sample run output
 
 ---
 
