@@ -98,11 +98,13 @@ Before running the project, make sure you have:
 - MySQL installed and running
 - A database named `testdb`
 - A table named `users` with matching columns
+- The SQL setup script available at [sql/SetUp.sql](sql/SetUp.sql)
 
 ### Setup
-1. Update the database credentials inside `MainDB.java`
-2. Compile the Java source files
-3. Run the desired program to test the JDBC operation
+1. Open and run [sql/SetUp.sql](sql/SetUp.sql) in MySQL to create the database and sample tables
+2. Update the database credentials inside `MainDB.java`
+3. Compile the Java source files
+4. Run the desired program to test the JDBC operation
 
 ### Run Examples
 ```bash
