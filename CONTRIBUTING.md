@@ -316,6 +316,16 @@ If you're new to JDBC or contribution workflows, check out:
 
 ---
 
+## 💻 Code Guidelines
+
+Keep it simple and clean! Here is what we look for when writing code:
+
+- **Keep it readable:** Use clear variable and method names so anyone can understand your code.
+- **Add helpful comments:** Explain *why* a piece of code is there, especially for complex SQL queries or JDBC connections.
+- **Keep it tidy:** Remove any unused imports or temporary `System.out.println()` debugging statements before saving.
+
+---
+
 ## 📞 Need Help?
 
 - Open an issue with the `question` label
