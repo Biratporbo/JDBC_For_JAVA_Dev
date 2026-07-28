@@ -344,6 +344,12 @@ Contributors will be recognized in:
 
 ---
 
+<div align="center">
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+</div>
+
 > "No contribution is too small. Let's just keep the code tidy, the queries fast, and the vibes relaxed. Thanks for helping out!" 🔌🚀
 
 ---
