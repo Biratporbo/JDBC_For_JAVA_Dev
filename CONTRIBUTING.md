@@ -346,3 +346,6 @@ Contributors will be recognized in:
 
 > "No contribution is too small. Let's just keep the code tidy, the queries fast, and the vibes relaxed. Thanks for helping out!" 🔌🚀
 
+---
+
+Built with ❤️ for Java and database learning.
