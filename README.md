@@ -159,6 +159,10 @@ This repository is meant for learning and exploration. If you want to improve th
   </a>
 </div>
 
+---
+
+> "Code is a lot like coffee—it's always best when it's kept clean, simple, and actually works. Happy coding!" ☕✨
+
+---
+
 Built with ❤️ for Java and database learning.
-
-
