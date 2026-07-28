@@ -344,6 +344,3 @@ Contributors will be recognized in:
 
 ---
 
-Thank you for contributing to making JDBC learning accessible and enjoyable! 🚀
-
-Happy coding! ☕🔌
