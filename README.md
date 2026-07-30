@@ -166,3 +166,14 @@ This repository is meant for learning and exploration. If you want to improve th
 ---
 
 Built with ❤️ for Java and database learning.
+
+## Examples
+
+- H2 demo: [examples/h2-example](examples/h2-example) — minimal Maven project demonstrating JDBC with an in-memory H2 database. To run the example and its test:
+
+```bash
+cd examples/h2-example
+mvn -q test
+# or run the main example:
+mvn -q compile exec:java -Dexec.mainClass=com.example.h2.ExampleMain
+```
