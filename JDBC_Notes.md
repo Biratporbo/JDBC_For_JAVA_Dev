@@ -245,9 +245,3 @@ Advanced questions (with brief guidance):
 - Official JavaDocs for `java.sql` and `javax.sql`.
 - Vendor JDBC driver docs (Postgres, MySQL, Oracle, SQL Server).
 - HikariCP documentation and tuning guides.
-
---
-
-If you'd like, I can:
-- Add runnable sample projects (H2-based) inside this repo under `examples/`.
-- Expand any section into deeper detail with diagrams or step-by-step lab exercises.
