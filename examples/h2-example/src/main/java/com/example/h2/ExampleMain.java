@@ -1,19 +1,16 @@
 package com.example.h2;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class ExampleMain {
     public static void main(String[] args) {
-        String url = "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1"; // in-memory DB that persists for the JVM life
-        try (Connection conn = DriverManager.getConnection(url)) {
-            createTable(conn);
-            int id = insertUser(conn, "Alice", "alice@example.com");
-            System.out.println("Inserted id=" + id);
-            queryUsers(conn);
-            updateUser(conn, id, "Alicia");
-            queryUsers(conn);
-            deleteUser(conn, id);
-            queryUsers(conn);
+        try {
+            String output = new IndustryJdbcExample().runDemo();
+            System.out.println(output);
         } catch (SQLException e) {
             e.printStackTrace();
         }
