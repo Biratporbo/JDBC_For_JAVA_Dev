@@ -14,8 +14,9 @@ mvn -q compile exec:java -Dexec.mainClass=com.example.h2.ExampleMain
 ```
 
 What the example does:
-- Creates a `users` table in an in-memory H2 database.
-- Inserts one user, queries the table, updates the user, queries again, then deletes the user.
+- Creates a simple `accounts` table in an in-memory H2 database.
+- Demonstrates an industry-style money transfer flow using JDBC transactions.
+- Uses `PreparedStatement` for safe parameterized SQL and rollback on failure.
 
 Files:
 - `pom.xml` — Maven project with H2 dependency and exec plugin.
