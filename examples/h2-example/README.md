@@ -17,6 +17,7 @@ What the example does:
 - Creates a simple `accounts` table in an in-memory H2 database.
 - Demonstrates an industry-style money transfer flow using JDBC transactions.
 - Uses `PreparedStatement` for safe parameterized SQL and rollback on failure.
+- Shows a DAO-style separation with `AccountDao` for reusable database operations.
 
 Files:
 - `pom.xml` — Maven project with H2 dependency and exec plugin.
