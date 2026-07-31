@@ -10,12 +10,13 @@ import java.sql.Statement;
 public class IndustryJdbcExample {
 
     private static final String URL = "jdbc:h2:mem:industrydb;DB_CLOSE_DELAY=-1";
+    private final AccountDao accountDao = new AccountDao();
 
     public String runDemo() throws SQLException {
         try (Connection conn = DriverManager.getConnection(URL)) {
             initializeSchema(conn);
-            createAccount(conn, 1001, 1000.00);
-            createAccount(conn, 1002, 500.00);
+            accountDao.createAccount(conn, 1001, 1000.00);
+            accountDao.createAccount(conn, 1002, 500.00);
 
             transferMoney(conn, 1001, 1002, 200.00);
             return readBalances(conn);
