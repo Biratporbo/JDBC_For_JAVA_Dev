@@ -177,3 +177,28 @@ mvn -q test
 # or run the main example:
 mvn -q compile exec:java -Dexec.mainClass=com.example.h2.ExampleMain
 ```
+
+## JDBC Interview Questions
+
+These are common interview topics for Java + JDBC:
+
+- What is JDBC and why is it used?
+  - JDBC is the Java API used to connect to relational databases and execute SQL queries.
+- What is the difference between `Statement` and `PreparedStatement`?
+  - `PreparedStatement` is better because it supports parameterized queries and helps prevent SQL injection.
+- Why is `PreparedStatement` preferred?
+  - It improves security, readability, and performance for repeated SQL operations.
+- What is the role of `ResultSet`?
+  - It stores the rows returned by a SQL query and allows iteration over them.
+- What is a transaction in JDBC?
+  - A transaction groups multiple database operations so they succeed or fail together.
+- How do you handle transactions in JDBC?
+  - Use `setAutoCommit(false)`, then `commit()` on success or `rollback()` on failure.
+- What is SQL injection?
+  - It is an attack where malicious SQL is injected into a query; parameterized queries prevent it.
+- What is the difference between `commit()` and `rollback()`?
+  - `commit()` saves changes permanently; `rollback()` undoes them.
+- What is connection pooling?
+  - It reuses database connections to improve performance and reduce overhead.
+- What are the main JDBC interfaces?
+  - `DriverManager`, `Connection`, `Statement`, `PreparedStatement`, `ResultSet`, and `SQLException`.
