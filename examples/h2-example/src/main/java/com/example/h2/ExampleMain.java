@@ -9,8 +9,17 @@ import java.sql.Statement;
 public class ExampleMain {
     public static void main(String[] args) {
         try {
-            String output = new IndustryJdbcExample().runDemo();
-            System.out.println(output);
+            System.out.println("=== Industry JDBC example ===");
+            System.out.println(new IndustryJdbcExample().runDemo());
+
+            System.out.println("=== CRUD example ===");
+            System.out.println(new MoreH2Examples().runCrudDemo());
+
+            System.out.println("=== Batch insert example ===");
+            System.out.println(new MoreH2Examples().runBatchDemo());
+
+            System.out.println("=== Join query example ===");
+            System.out.println(new MoreH2Examples().runJoinDemo());
         } catch (SQLException e) {
             e.printStackTrace();
         }
