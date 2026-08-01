@@ -169,7 +169,9 @@ Built with ❤️ for Java and database learning.
 
 ## Examples
 
-- H2 demo: [examples/h2-example](examples/h2-example) — minimal Maven project demonstrating JDBC with an in-memory H2 database. To run the example and its test:
+- H2 demo: [examples/h2-example](examples/h2-example) — a small Maven project that demonstrates JDBC with an in-memory H2 database.
+- The sample now includes additional examples for CRUD operations, batch inserts, and join queries in [examples/h2-example/src/main/java/com/example/h2/MoreH2Examples.java](examples/h2-example/src/main/java/com/example/h2/MoreH2Examples.java).
+- To run the example and its tests:
 
 ```bash
 cd examples/h2-example
