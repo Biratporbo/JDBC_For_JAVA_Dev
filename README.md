@@ -180,6 +180,18 @@ mvn -q test
 mvn -q compile exec:java -Dexec.mainClass=com.example.h2.ExampleMain
 ```
 
+## Project Structure
+
+- [JDBC_Learning/src](JDBC_Learning/src) contains the core JDBC learning files for MySQL-based examples.
+- [sql/SetUp.sql](sql/SetUp.sql) contains the SQL script used to initialize the database objects.
+- [examples/h2-example](examples/h2-example) contains a self-contained Maven project for in-memory H2 experiments.
+
+## Common Troubleshooting
+
+- If Java or Maven is not recognized, install a recent JDK and add it to your PATH.
+- If MySQL connections fail, verify the database server is running and the credentials in [JDBC_Learning/src/MainDB.java](JDBC_Learning/src/MainDB.java) are correct.
+- If the H2 example does not run, make sure you are inside the [examples/h2-example](examples/h2-example) folder when executing Maven commands.
+
 ## JDBC Interview Questions
 
 These are common interview topics for Java + JDBC:
