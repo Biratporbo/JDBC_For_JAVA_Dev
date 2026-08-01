@@ -18,10 +18,13 @@ What the example does:
 - Demonstrates an industry-style money transfer flow using JDBC transactions.
 - Uses `PreparedStatement` for safe parameterized SQL and rollback on failure.
 - Shows a DAO-style separation with `AccountDao` for reusable database operations.
+- Adds extra demos for CRUD operations, batch inserts, and joins.
 
 Files:
 - `pom.xml` — Maven project with H2 dependency and exec plugin.
-- `src/main/java/com/example/h2/ExampleMain.java` — example program.
+- `src/main/java/com/example/h2/ExampleMain.java` — main demo runner.
+- `src/main/java/com/example/h2/MoreH2Examples.java` — additional JDBC examples.
+- `src/test/java/com/example/h2/MoreH2ExamplesTest.java` — tests for the new demos.
 
 Next steps:
-- Integrate this example into the repo README or add automated tests.
+- Add a small REST or Spring Boot wrapper around these JDBC examples.
