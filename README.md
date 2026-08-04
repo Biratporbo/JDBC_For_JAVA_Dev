@@ -28,6 +28,7 @@ This repository is a beginner-friendly Java learning project focused on understa
 - Database connection setup with `DriverManager`
 - Data insertion using `PreparedStatement`
 - Data retrieval, update, and delete examples
+- Batch processing examples with `addBatch()` and transaction handling
 - A menu-driven `UserManagementSystem` example for practicing full CRUD workflow
 - A sample execution log in [JDBC_Learning/src/UserManagementSystemOutput.txt](JDBC_Learning/src/UserManagementSystemOutput.txt)
 - Structured Java files for learning the JDBC workflow step by step
@@ -52,6 +53,8 @@ The repository demonstrates the most common database interactions:
 - `SearchData.java` — searches for specific data
 - `UpdateData.java` — updates data in the table
 - `DeleteData.java` — removes records from the database
+- `BatchInsertExample.java` — demonstrates batch insert with `PreparedStatement` and transaction handling
+- `BatchUpdateExample.java` — demonstrates batch update with `PreparedStatement` and rollback support
 - `UserManagementSystem.java` — a menu-based user CRUD application built on top of JDBC
 - `MainDB.java` — central database connection setup
 
@@ -67,6 +70,8 @@ The repository demonstrates the most common database interactions:
 | `SearchData.java` | Query by criteria | Filtering records |
 | `UpdateData.java` | Modify existing entries | Data mutation |
 | `DeleteData.java` | Remove records | Record deletion |
+| `BatchInsertExample.java` | Insert multiple rows in one batch | Batch processing and transactions |
+| `BatchUpdateExample.java` | Update multiple rows in one batch | Batch updates and rollback handling |
 | `UserManagementSystem.java` | Menu-driven CRUD system | End-to-end JDBC practice |
 | `UserManagementSystemOutput.txt` | Sample program output | Reference for expected console behavior |
 
@@ -119,6 +124,8 @@ You can then run the individual files such as:
 - `SearchData`
 - `UpdateData`
 - `DeleteData`
+- `BatchInsertExample` for batch insert demonstration
+- `BatchUpdateExample` for batch update demonstration
 - `UserManagementSystem` for a complete interactive CRUD flow
 - View [JDBC_Learning/src/UserManagementSystemOutput.txt](JDBC_Learning/src/UserManagementSystemOutput.txt) for a sample run output
 
