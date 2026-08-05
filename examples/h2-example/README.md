@@ -63,6 +63,12 @@ When you run the main example, you should see output showing:
 - If Java is not recognized, install a JDK and verify `java -version`.
 - If the build fails, make sure you are inside the `examples/h2-example` folder when running Maven commands.
 
+## Quick glossary
+- `DAO` — Data Access Object, a class that handles database operations
+- `PreparedStatement` — a safer way to execute SQL with parameters
+- `Transaction` — a group of database operations treated as one unit
+- `Rollback` — undo changes if something fails
+
 ## Next learning steps
 - Add a small REST API around these JDBC examples.
 - Learn connection pooling with HikariCP.
